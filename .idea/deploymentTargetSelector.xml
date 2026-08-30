@@ -2,7 +2,7 @@
 <project version="4">
   <component name="deploymentTargetSelector">
     <selectionStates>
-      <SelectionState runConfigName="Hibreed">
+      <SelectionState runConfigName="HYBRD">
         <option name="selectionMode" value="DROPDOWN" />
         <DropdownSelection timestamp="2026-08-30T22:51:33.267216200Z">
           <Target type="DEFAULT_BOOT">

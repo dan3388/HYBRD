@@ -1,4 +1,4 @@
-# Hibreed — Workout Tracker (Android)
+# HYBRD — Workout Tracker (Android)
 
 A simple Android workout tracker. Log a workout per exercise, with multiple sets per workout (each set has its own weight and reps), and view all your sessions grouped by day.
 
