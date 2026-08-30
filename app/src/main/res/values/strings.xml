@@ -1,0 +1,41 @@
+<resources>
+    <string name="app_name">Hibreed</string>
+
+    <!-- Screens -->
+    <string name="sessions_title">Workout Sessions</string>
+    <string name="log_title">Log Workout</string>
+    <string name="pick_exercise_title">Choose Exercise</string>
+
+    <!-- Sessions screen -->
+    <string name="no_sessions">No workouts logged yet.\nTap the + button to log your first workout.</string>
+    <string name="add_workout">Add Workout</string>
+    <string name="no_sessions_day">Rest day</string>
+
+    <!-- Log / set editor screen -->
+    <string name="log_exercise_label">Exercise</string>
+    <string name="log_exercise_hint">Choose an exercise…</string>
+    <string name="log_pick_exercise">Choose</string>
+    <string name="log_date_label">Date</string>
+    <string name="sets_label">Sets</string>
+    <string name="weight_hint">lbs</string>
+    <string name="reps_hint">reps</string>
+    <string name="add_set">Add set</string>
+    <string name="remove_set">Remove set</string>
+    <string name="save_workout">Save Workout</string>
+    <string name="delete_workout">Delete workout</string>
+    <string name="log_error_exercise">Please choose an exercise first.</string>
+    <string name="log_error_no_sets">Add at least one set.</string>
+    <string name="log_error_reps">Each set needs reps (1 or more).</string>
+    <string name="log_saved">Workout saved.</string>
+    <string name="workout_deleted">Workout deleted.</string>
+
+    <!-- Exercise picker -->
+    <string name="picker_search_hint">Search exercises or muscle groups…</string>
+    <string name="picker_add_custom">Add new exercise</string>
+    <string name="picker_empty">No exercises match your search.</string>
+    <string name="custom_dialog_title">Add a custom exercise</string>
+    <string name="custom_name_label">Exercise name</string>
+    <string name="custom_group_label">Muscle group</string>
+    <string name="custom_cancel">Cancel</string>
+    <string name="custom_add">Add</string>
+</resources>
