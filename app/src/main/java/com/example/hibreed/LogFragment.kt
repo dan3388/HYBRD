@@ -75,6 +75,11 @@ class LogFragment : Fragment() {
         binding.saveWorkoutBtn.setOnClickListener { save() }
         binding.deleteWorkoutBtn.setOnClickListener { confirmDelete() }
 
+        // Reset editor state so re-entry (e.g. round-tripping through the exercise
+        // picker re-uses this same fragment instance) always starts clean.
+        rows.clear()
+        binding.setsContainer.removeAllViews()
+
         if (workoutId > 0) {
             binding.deleteWorkoutBtn.visibility = View.VISIBLE
             loadWorkoutForEditing()
