@@ -22,5 +22,5 @@ dependencyResolutionManagement {
     }
 }
 
-rootProject.name = "hibreed"
+rootProject.name = "hybrd"
 include(":app")
